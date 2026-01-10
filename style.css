@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left {
+    flex: 1;
+    background-image: url("images/forest1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
