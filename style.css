@@ -41,3 +41,14 @@ body {
     font-family: "Norse";
     font-size: 4rem;
 }
+
+.right {
+    flex: 1;
+    background: #f9fafb;
+    padding: 50px;
+    
+}
+
+.text {
+    margin-bottom: 40px;
+}
