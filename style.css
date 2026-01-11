@@ -29,8 +29,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    padding: 15px;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.logo-box img {
+    height: 80px;
 }
 
 @font-face {
@@ -60,6 +64,12 @@ form {
 
 }
 
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -75,5 +85,31 @@ label {
 input {
     padding: 8px;
     border: 1px solid #E5E7EB;
-    border-radius: 5px;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgba(0,0,255,0.3);
+
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+button {
+    background: #596d48;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.9;
 }
